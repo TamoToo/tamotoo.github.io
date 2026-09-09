@@ -7,8 +7,16 @@ author_profile: true
 
 {% include base_path %}
 
+<h2 class="archive__subtitle">Internships</h2>
 
-{% for post in site.portfolio %}
+{% assign sorted_internships = site.portfolio | where: "category", "internships" | sort: "order" %}
+{% for post in sorted_internships %}
   {% include archive-single.html %}
 {% endfor %}
 
+<h2 class="archive__subtitle">Projects</h2>
+
+{% assign sorted_projects = site.portfolio | where: "category", "projects" | sort: "order" %}
+{% for post in sorted_projects %}
+  {% include archive-single.html %}
+{% endfor %}

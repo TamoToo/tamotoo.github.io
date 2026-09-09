@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default"
+site_theme               : "dark"
 title                    : "Thomas Forest"
 title_separator          : "-"
 name                     : &name "Thomas Forest"
-description              : &description "personal description"
+description              : &description "Thomas Forest — AI Engineer & ML Researcher. Specializing in Reinforcement Learning, Fine-Tuned LLMs, Multi-Agent Systems, and Distributed Deep Learning."
 url                      : https://tamotoo.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "https://github.com/TamoToo/tamotoo.github.io"
@@ -25,11 +25,11 @@ author:
   avatar           : "profile.png"
   name             : "Thomas Forest"
   pronouns         : # example: "she/her"  
-  bio              : "AI student with interest in RL"
-  location         : "Montreal, Canada"
-  employer         : "Polytechnique Montreal"
+  bio              : "AI Engineer & ML Researcher | Double Degree Polytechnique Montréal & UTC"
+  location         : "France"
+  employer         : "Polytechnique Montréal & UTC"
   uri              : # URL
-  email            : "thomas-2.forest@polymtl.ca" 
+  email            : "t.forest0573@gmail.com" 
 
   # Academic websites
   academia         : # URL
@@ -60,7 +60,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "thomas-forest-8418a8250"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

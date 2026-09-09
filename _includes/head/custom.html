@@ -1,8 +1,6 @@
 {% include base_path %}
 
-<!-- start custom head snippets -->
-
-<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+<!-- Favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
 <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
@@ -12,9 +10,89 @@
 <meta name="theme-color" content="#ffffff"/>
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
-
-<!-- Support for MatJax -->
+<!-- MathJax Support -->
 <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-<!-- end custom head snippets -->
+<!-- Subtle Personal Touches (Clean & Minimalist) -->
+<style>
+  /* Clean typography refinements */
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Academic achievement badge */
+  .highlight-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    border-radius: 4px;
+    background: rgba(37, 99, 235, 0.08);
+    color: #2563eb;
+    border: 1px solid rgba(37, 99, 235, 0.2);
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+
+  html[data-theme="dark"] .highlight-badge {
+    background: rgba(56, 189, 248, 0.12);
+    color: #38bdf8;
+    border-color: rgba(56, 189, 248, 0.3);
+  }
+
+  /* Clean action buttons for CV download */
+  .btn-cv-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 14px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border-radius: 6px;
+    background: #f1f5f9;
+    color: #0f172a !important;
+    border: 1px solid #cbd5e1;
+    text-decoration: none !important;
+    margin-right: 8px;
+    margin-top: 6px;
+    transition: all 0.15s ease;
+  }
+
+  .btn-cv-download:hover {
+    background: #e2e8f0;
+    border-color: #94a3b8;
+  }
+
+  html[data-theme="dark"] .btn-cv-download {
+    background: #1e293b;
+    color: #f8fafc !important;
+    border-color: #334155;
+  }
+
+  html[data-theme="dark"] .btn-cv-download:hover {
+    background: #334155;
+    border-color: #475569;
+  }
+
+  /* Project media embed frame */
+  .project-embed-frame {
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+    margin: 12px 0 16px;
+    max-width: 580px;
+  }
+
+  html[data-theme="dark"] .project-embed-frame {
+    border-color: #334155;
+  }
+
+  .project-embed-frame video,
+  .project-embed-frame img {
+    width: 100%;
+    display: block;
+  }
+</style>
