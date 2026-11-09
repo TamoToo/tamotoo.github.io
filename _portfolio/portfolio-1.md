@@ -3,7 +3,7 @@ title: "From-Scratch Deep Learning & RL Implementations (Transformers, DQN, DDPG
 excerpt: "From-scratch PyTorch implementations of Transformer foundations (BERT, GPT-2) and continuous/discrete RL control agents (DQN, DDPG) with live W&B telemetry.<br/><video width='100%' autoplay muted loop playsinline><source src='/images/CarRacing-v3.mp4' type='video/mp4'></video>"
 collection: portfolio
 category: "projects"
-order: 3
+order: 4
 ---
 
 {% include base_path %}

@@ -3,7 +3,7 @@ title: "Traffic Sign Recognition & Computer Vision CNN Benchmark"
 excerpt: "Custom annotated dataset curation and benchmark comparing Classical Machine Learning (SVM/Random Forest) with Deep Convolutional Neural Networks, reaching 97.35% accuracy.<br/><img src='/images/traffic_signs_detection.jpg' width='100%'>"
 collection: portfolio
 category: "projects"
-order: 5
+order: 6
 ---
 
 {% include base_path %}

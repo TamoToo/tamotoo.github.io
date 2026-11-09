@@ -3,7 +3,7 @@ title: "Specialized QA System with Llama-3.2-3B (Top 3 Kaggle Finish)"
 excerpt: "Hybrid RAG + Q-LoRA alignment on temporal question answering datasets, achieving a 450x relative F1-score leap from 0.001 to 0.456 and securing a Top 3 finish in a Kaggle AI competition."
 collection: portfolio
 category: "projects"
-order: 2
+order: 3
 ---
 
 {% include base_path %}

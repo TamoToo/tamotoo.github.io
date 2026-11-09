@@ -53,6 +53,10 @@ Selected Projects
   * Developed a computer vision YOLO pipeline to segment holds, modeling routes as directed spatial graphs with NetworkX.
   * Engineered a stateful LangGraph agent (GPT-4o) served via a high-performance FastAPI backend.
 
+* **PocketCompanion (2026)**
+  * <small style="font-size: 0.85em; opacity: 0.8;"><em>C++, ESP32-S3, LVGL, Python, I2C (IMU &amp; Capacitive Touch)</em></small>
+  * Engineered a portable interactive digital companion on a circular IPS touch display with a 60 FPS procedural avatar engine, 6-axis IMU gravity/shake physics, and a Python JSON-to-C++ code generator.
+
 * **Specialized QA System (2025)**
   * <small style="font-size: 0.85em; opacity: 0.8;"><em>Llama-3.2-3B, RAG, Fine-Tuning, Q-LoRA</em></small>
   * Aligned Llama-3.2 using hybrid RAG and Fine-Tuning (Q-LoRA), achieving a **Top 3 rank** in a competitive Kaggle tournament.

@@ -3,7 +3,7 @@ title: "Competitive Game AI Agent: Divercité (Top 5 Tournament Finish)"
 excerpt: "Adversarial game-playing AI engine combining Min-Max search with Alpha-Beta pruning and policy-guided reinforcement learning heuristics, finishing in the Top 5 of an AI competition."
 collection: portfolio
 category: "projects"
-order: 4
+order: 5
 ---
 
 {% include base_path %}
