@@ -9,46 +9,130 @@ redirect_from:
 
 {% include base_path %}
 
-I am an **AI Engineer and Machine Learning Researcher** graduated from a Master's Double Degree in Computer Engineering at **[Polytechnique Montréal](https://www.polymtl.ca/)** (specializing in Artificial Intelligence and Deep Learning) and **[Université de Technologie de Compiègne (UTC)](https://www.utc.fr/)** (specializing in Data Science & AI).
+I am an **AI Engineer & Machine Learning Researcher** holding a Master's Double Degree in Computer Engineering from **[Polytechnique Montréal](https://www.polymtl.ca/)** and **[UTC Compiègne](https://www.utc.fr/)**, passionate about applying AI to **energy, climate, and real-world systems**.
 
-My work centers on **Reinforcement Learning**, **Fine-Tuned LLMs & Multi-Agent Systems**, and **Spatio-Temporal Deep Learning on HPC infrastructure**. I enjoy building systems from foundational algorithms up to scalable production pipelines. I am deeply passionate about **AI research for real-world applications**, particularly in **energy, climate, and environmental sustainability**.
+<div class="home-pillars">
+  <span class="home-pillar-tag">🤖 Reinforcement Learning</span>
+  <span class="home-pillar-tag">🧠 Fine-Tuned LLMs &amp; Multi-Agent Systems</span>
+  <span class="home-pillar-tag">⚡ Spatio-Temporal Deep Learning &amp; HPC</span>
+</div>
 
-<div style="margin: 16px 0 24px;">
+<div style="margin: 14px 0 28px;">
   <a href="{{ site.baseurl }}{% link files/CV_English_Forest_Thomas.pdf %}" target="_blank" class="btn-cv-download">
-    <i class="fa fa-file-pdf"></i> Download Resume (EN)
+    <i class="fa fa-file-pdf"></i> Resume (EN)
   </a>
   <a href="{{ site.baseurl }}{% link files/CV_Francais_Forest_Thomas.pdf %}" target="_blank" class="btn-cv-download">
-    <i class="fa fa-file-pdf"></i> Télécharger CV (FR)
+    <i class="fa fa-file-pdf"></i> CV (FR)
+  </a>
+  <a href="{{ site.baseurl }}/portfolio/" class="btn-cv-download">
+    <i class="fa fa-folder-open"></i> Full Portfolio →
   </a>
 </div>
 
 ---
 
-### Highlights & Key Results
+### Research & Competition Impact
 
-* <span class="highlight-badge">🏆 Top 3 Kaggle</span> **Specialized QA System with Llama-3.2-3B:** Aligned Llama-3.2 using hybrid Retrieval-Augmented Generation (RAG) and parameter-efficient fine-tuning (Q-LoRA) on temporal question-answering benchmarks, securing a Top 3 rank in a competitive Kaggle tournament.
-* <span class="highlight-badge">⚡ -60% MAE</span> **24h Spatio-Temporal Wind Power Forecasting:** Architected and optimized a hybrid CNN-LSTM Seq2Seq framework in PyTorch integrating high-resolution NWP weather grids on **NVIDIA H100 GPU clusters** at Polytechnique Montréal, reducing MAE by 60% vs. baseline LSTM models.
-* <span class="highlight-badge">🧗 Vision &amp; Agents</span> **[ClimbVision AI](https://climbvision-ai-beta.vercel.app):** Developed a computer vision YOLO pipeline to segment climbing holds, modeled routes as directed spatial graphs with NetworkX, and engineered a stateful multi-agent system with LangGraph (GPT-4o) and FastAPI — **[Live Web App ↗](https://climbvision-ai-beta.vercel.app)**.
-* <span class="highlight-badge">🤖 Embedded C++</span> **PocketCompanion:** Built a portable, touch- and motion-reactive digital companion on an ESP32-S3 circular touch display with a 60 FPS LVGL avatar engine, 6-axis IMU physics, and a Python JSON-to-C++ code generator.
-* <span class="highlight-badge">🧠 Cognitive AI</span> **Human Behavior Simulation &amp; Custom Gymnasium (CEA-List):** Developed numerical simulations of human decision-making using the SOAR cognitive architecture and engineered a custom OpenAI Gymnasium simulation pipeline from scratch in Python to benchmark RL agents.
-* <span class="highlight-badge">📊 Deep RL</span> **From-Scratch Deep Learning &amp; RL:** Implemented Transformer architectures (BERT, GPT-2) and continuous/discrete RL agents (DQN, DDPG) in PyTorch with telemetry tracked on Weights &amp; Biases.
-* <span class="highlight-badge">🎖️ Top 5 Finish</span> **AI Agent for Board Game (Divercité):** Developed a competitive game-playing agent using Min-Max search with Alpha-Beta pruning and policy-guided reinforcement learning heuristics.
-* <span class="highlight-badge">🎯 97.35% Acc</span> **Traffic Sign Perception System:** Trained CNN models on a curated annotated dataset with geometric and lighting distortions, benchmarking Classical ML against Deep CNNs.
+<div class="home-grid">
+  <div class="home-card">
+    <div>
+      <div class="home-card__header">
+        <h4 class="home-card__title">24h Wind Power Forecasting</h4>
+        <span class="highlight-badge">⚡ -60% MAE</span>
+      </div>
+      <p class="home-card__desc">Hybrid CNN-LSTM Seq2Seq with NWP weather grids trained on <strong>NVIDIA H100 clusters</strong> at Polytechnique Montréal.</p>
+    </div>
+    <div class="home-card__footer">
+      <a href="{{ site.baseurl }}/portfolio/portfolio-4/">Read Research →</a>
+    </div>
+  </div>
+
+  <div class="home-card">
+    <div>
+      <div class="home-card__header">
+        <h4 class="home-card__title">Llama-3.2-3B QA Alignment</h4>
+        <span class="highlight-badge">🏆 Top 3 Kaggle</span>
+      </div>
+      <p class="home-card__desc">Hybrid RAG + 4-bit Q-LoRA fine-tuning on temporal knowledge bases, boosting F1 from 0.001 to 0.456.</p>
+    </div>
+    <div class="home-card__footer">
+      <a href="{{ site.baseurl }}/portfolio/portfolio-3/">Case Study →</a>
+    </div>
+  </div>
+
+  <div class="home-card">
+    <div>
+      <div class="home-card__header">
+        <h4 class="home-card__title">Cognitive AI &amp; Custom Gym</h4>
+        <span class="highlight-badge">🧠 CEA-List</span>
+      </div>
+      <p class="home-card__desc">Simulated human decision-making with the SOAR architecture and built a custom OpenAI Gymnasium RL pipeline.</p>
+    </div>
+    <div class="home-card__footer">
+      <a href="{{ site.baseurl }}/portfolio/portfolio-5/">Read Research →</a>
+    </div>
+  </div>
+
+  <div class="home-card">
+    <div>
+      <div class="home-card__header">
+        <h4 class="home-card__title">Vision &amp; Game AI Benchmarks</h4>
+        <span class="highlight-badge">🎯 97.35% Acc</span>
+      </div>
+      <p class="home-card__desc">Deep CNN traffic sign perception (97.35% accuracy) &amp; Top 5 tournament finish with a Min-Max + RL board game agent.</p>
+    </div>
+    <div class="home-card__footer">
+      <a href="{{ site.baseurl }}/portfolio/portfolio-2/">Vision CNN →</a>
+      <a href="{{ site.baseurl }}/portfolio/portfolio-6/">Game AI →</a>
+    </div>
+  </div>
+</div>
+
+### Featured Engineering Projects
+
+<div class="home-grid">
+  <div class="home-card">
+    <div>
+      <div class="home-card__header">
+        <h4 class="home-card__title"><a href="https://climbvision-ai-beta.vercel.app" target="_blank" rel="noopener noreferrer">ClimbVision AI</a></h4>
+        <span class="highlight-badge">🧗 Vision &amp; Agents</span>
+      </div>
+      <p class="home-card__desc">YOLO hold segmentation, NetworkX spatial route graphs, and a stateful LangGraph (GPT-4o) coaching agent on FastAPI &amp; Next.js.</p>
+    </div>
+    <div class="home-card__footer">
+      <a href="https://climbvision-ai-beta.vercel.app" target="_blank" rel="noopener noreferrer">🌐 Launch Live App ↗</a>
+      <a href="{{ site.baseurl }}/portfolio/portfolio-7/">Architecture →</a>
+    </div>
+  </div>
+
+  <div class="home-card">
+    <div>
+      <div class="home-card__header">
+        <h4 class="home-card__title"><a href="{{ site.baseurl }}/portfolio/portfolio-8/">PocketCompanion</a></h4>
+        <span class="highlight-badge">🤖 Embedded C++</span>
+      </div>
+      <p class="home-card__desc">Portable ESP32-S3 circular touch companion running a 60 FPS LVGL avatar engine, 6-axis IMU physics, and Python codegen.</p>
+    </div>
+    <div class="home-card__footer">
+      <a href="https://github.com/TamoToo/PocketCompanion" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+      <a href="{{ site.baseurl }}/portfolio/portfolio-8/">Project Demo →</a>
+    </div>
+  </div>
+
+  <div class="home-card">
+    <div>
+      <div class="home-card__header">
+        <h4 class="home-card__title"><a href="{{ site.baseurl }}/portfolio/portfolio-1/">Deep RL &amp; Transformers</a></h4>
+        <span class="highlight-badge">📊 From Scratch</span>
+      </div>
+      <p class="home-card__desc">First-principles PyTorch implementations of BERT, GPT-2, DQN, and continuous-control DDPG on Gymnasium CarRacing-v3.</p>
+    </div>
+    <div class="home-card__footer">
+      <a href="{{ site.baseurl }}/portfolio/portfolio-1/">Watch Agent &amp; Details →</a>
+    </div>
+  </div>
+</div>
 
 ---
 
-### Selected Projects
-
-Detailed writeups and media demonstrations are available in the [Portfolio]({{ site.baseurl }}/portfolio/):
-- **[ClimbVision AI]({{ site.baseurl }}/portfolio/portfolio-7/):** YOLO hold segmentation + NetworkX spatial graphs + LangGraph multi-agent reasoning ([**Live Web App ↗**](https://climbvision-ai-beta.vercel.app)).
-- **[PocketCompanion]({{ site.baseurl }}/portfolio/portfolio-8/):** Interactive ESP32-S3 embedded companion with 60 FPS LVGL procedural animation and IMU physics.
-- **[From-Scratch Deep RL &amp; Transformers]({{ site.baseurl }}/portfolio/portfolio-1/):** PyTorch implementations of BERT, GPT-2, DQN, and DDPG on Gym CarRacing with live video.
-- **[Traffic Sign Detection Benchmark]({{ site.baseurl }}/portfolio/portfolio-2/):** Multi-class CNN vs. Classical ML perceptual pipeline.
-
----
-
-### Contact
-
-- **Email:** [t.forest0573@gmail.com](mailto:t.forest0573@gmail.com)
-- **GitHub:** [@TamoToo](https://github.com/TamoToo)
-- **Location:** France
+**Contact:** [t.forest0573@gmail.com](mailto:t.forest0573@gmail.com) &nbsp;·&nbsp; **GitHub:** [@TamoToo](https://github.com/TamoToo) &nbsp;·&nbsp; **Location:** France / Montreal
