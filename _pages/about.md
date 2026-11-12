@@ -28,7 +28,7 @@ My work centers on **Reinforcement Learning**, **Fine-Tuned LLMs & Multi-Agent S
 
 * <span class="highlight-badge">🏆 Top 3 Kaggle</span> **Specialized QA System with Llama-3.2-3B:** Aligned Llama-3.2 using hybrid Retrieval-Augmented Generation (RAG) and parameter-efficient fine-tuning (Q-LoRA) on temporal question-answering benchmarks, securing a Top 3 rank in a competitive Kaggle tournament.
 * <span class="highlight-badge">⚡ -60% MAE</span> **24h Spatio-Temporal Wind Power Forecasting:** Architected and optimized a hybrid CNN-LSTM Seq2Seq framework in PyTorch integrating high-resolution NWP weather grids on **NVIDIA H100 GPU clusters** at Polytechnique Montréal, reducing MAE by 60% vs. baseline LSTM models.
-* <span class="highlight-badge">🧗 Vision &amp; Agents</span> **ClimbVision AI:** Developed a computer vision YOLO pipeline to segment climbing holds, modeled routes as directed spatial graphs with NetworkX, and engineered a stateful multi-agent system with LangGraph (GPT-4o) and FastAPI.
+* <span class="highlight-badge">🧗 Vision &amp; Agents</span> **[ClimbVision AI](https://climbvision-ai-beta.vercel.app):** Developed a computer vision YOLO pipeline to segment climbing holds, modeled routes as directed spatial graphs with NetworkX, and engineered a stateful multi-agent system with LangGraph (GPT-4o) and FastAPI — **[Live Web App ↗](https://climbvision-ai-beta.vercel.app)**.
 * <span class="highlight-badge">🤖 Embedded C++</span> **PocketCompanion:** Built a portable, touch- and motion-reactive digital companion on an ESP32-S3 circular touch display with a 60 FPS LVGL avatar engine, 6-axis IMU physics, and a Python JSON-to-C++ code generator.
 * <span class="highlight-badge">🧠 Cognitive AI</span> **Human Behavior Simulation &amp; Custom Gymnasium (CEA-List):** Developed numerical simulations of human decision-making using the SOAR cognitive architecture and engineered a custom OpenAI Gymnasium simulation pipeline from scratch in Python to benchmark RL agents.
 * <span class="highlight-badge">📊 Deep RL</span> **From-Scratch Deep Learning &amp; RL:** Implemented Transformer architectures (BERT, GPT-2) and continuous/discrete RL agents (DQN, DDPG) in PyTorch with telemetry tracked on Weights &amp; Biases.
@@ -40,7 +40,7 @@ My work centers on **Reinforcement Learning**, **Fine-Tuned LLMs & Multi-Agent S
 ### Selected Projects
 
 Detailed writeups and media demonstrations are available in the [Portfolio]({{ site.baseurl }}/portfolio/):
-- **[ClimbVision AI]({{ site.baseurl }}/portfolio/portfolio-7/):** YOLO hold segmentation + NetworkX spatial graphs + LangGraph multi-agent reasoning.
+- **[ClimbVision AI]({{ site.baseurl }}/portfolio/portfolio-7/):** YOLO hold segmentation + NetworkX spatial graphs + LangGraph multi-agent reasoning ([**Live Web App ↗**](https://climbvision-ai-beta.vercel.app)).
 - **[PocketCompanion]({{ site.baseurl }}/portfolio/portfolio-8/):** Interactive ESP32-S3 embedded companion with 60 FPS LVGL procedural animation and IMU physics.
 - **[From-Scratch Deep RL &amp; Transformers]({{ site.baseurl }}/portfolio/portfolio-1/):** PyTorch implementations of BERT, GPT-2, DQN, and DDPG on Gym CarRacing with live video.
 - **[Traffic Sign Detection Benchmark]({{ site.baseurl }}/portfolio/portfolio-2/):** Multi-class CNN vs. Classical ML perceptual pipeline.

@@ -1,6 +1,6 @@
 ---
 title: "ClimbVision AI: Computer Vision & Multi-Agent Climbing Analysis"
-excerpt: "YOLO hold segmentation and spatial route modeling with NetworkX, paired with a stateful LangGraph agent (GPT-4o) and high-performance FastAPI backend."
+excerpt: "YOLO hold segmentation and spatial route modeling with NetworkX, paired with a stateful LangGraph agent (GPT-4o) and high-performance FastAPI backend.<br/><a href='https://climbvision-ai-beta.vercel.app' target='_blank' rel='noopener noreferrer' class='btn-cv-download' style='margin-top: 10px;'><i class='fas fa-external-link-alt'></i> Launch Live Web App (climbvision-ai-beta.vercel.app)</a>"
 collection: portfolio
 category: "projects"
 order: 1
@@ -8,8 +8,16 @@ order: 1
 
 {% include base_path %}
 
+<div style="margin: 12px 0 20px;">
+  <a href="https://climbvision-ai-beta.vercel.app" target="_blank" rel="noopener noreferrer" class="btn-cv-download">
+    <i class="fas fa-external-link-alt"></i> Launch Live Application (climbvision-ai-beta.vercel.app)
+  </a>
+</div>
+
 ### Overview
 ClimbVision AI is an intelligent climbing route analysis system designed to understand climbing problems through multi-modal perception and graph reasoning.
+
+- **Live Web Application:** [climbvision-ai-beta.vercel.app](https://climbvision-ai-beta.vercel.app)
 
 ---
 

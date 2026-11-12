@@ -48,10 +48,10 @@ Experience
 
 Selected Projects
 ======
-* **ClimbVision AI (2026)**
+* **[ClimbVision AI](https://climbvision-ai-beta.vercel.app) (2026)** — [Live Web App ↗](https://climbvision-ai-beta.vercel.app)
   * <small style="font-size: 0.85em; opacity: 0.8;"><em>YOLO, NetworkX, LangGraph, FastAPI, Next.js</em></small>
   * Developed a computer vision YOLO pipeline to segment holds, modeling routes as directed spatial graphs with NetworkX.
-  * Engineered a stateful LangGraph agent (GPT-4o) served via a high-performance FastAPI backend.
+  * Engineered a stateful LangGraph agent (GPT-4o) served via a high-performance FastAPI backend and deployed at [climbvision-ai-beta.vercel.app](https://climbvision-ai-beta.vercel.app).
 
 * **PocketCompanion (2026)**
   * <small style="font-size: 0.85em; opacity: 0.8;"><em>C++, ESP32-S3, LVGL, Python, I2C (IMU &amp; Capacitive Touch)</em></small>
